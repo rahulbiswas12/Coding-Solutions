@@ -1,5 +1,4 @@
 //Java program to convert decimal number to binary number
-
 import java.util.Scanner;
 public class Decimal_To_Binary
 {
