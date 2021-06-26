@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
  
-class solution
+class Solution
 {   
     static String remVowel(String str)
     {
