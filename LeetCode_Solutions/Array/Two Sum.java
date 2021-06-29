@@ -6,7 +6,7 @@ public class Solution {
 
             Integer diff = (Integer)(target - numbers[i]);
             if(hash.containsKey(diff)){
-                int toReturn[] = {hash.get(diff)+1, i+1};
+                int toReturn[] = {hash.get(diff), i};
                 return toReturn;
             }
 
