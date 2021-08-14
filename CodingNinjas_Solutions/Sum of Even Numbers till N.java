@@ -13,3 +13,15 @@ public class Solution {
 		System.out.println(sum);
 	}
 }
+
+/*
+Input Format :
+Integer N
+Output Format :
+Required Sum 
+
+Sample Input 1 :
+ 6
+Sample Output 1 :
+12
+*/
