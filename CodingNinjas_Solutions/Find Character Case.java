@@ -18,3 +18,14 @@ public class Solution {
         }
     }
 }
+
+/*
+Sample Input 1 :
+v
+Sample Output 1 :
+0
+Sample Input 2 :
+V
+Sample Output 2 :
+1
+*/
