@@ -25,7 +25,7 @@ public class Solution {
 		double pf = 0.11 * basic;
 		
 		double totalSalary = basic + hra + da + allowance - pf;
-		int ans = (int) Math.round(totalSalary); //An internal function implemented in the Math class(no need to import as it is available as default) to round off the decimal values
+		int ans = (int) Math.round(totalSalary);
 		System.out.println(ans);
 	}
 }
