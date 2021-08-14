@@ -1,5 +1,4 @@
 /*
-
 Sample Input 1 :
 A
 3 4 6
@@ -12,7 +11,6 @@ T
 Sample Output 2 :
 T
 6
-
 */
 
 import java.util.Scanner;
