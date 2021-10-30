@@ -1,20 +1,15 @@
-public class Solution {
-    public int[] twoSum(int[] numbers, int target) {
-        
-        HashMap<Integer,Integer> hash = new HashMap<Integer,Integer>();
-        for(int i = 0; i < numbers.length; i++){
-
-            Integer diff = (Integer)(target - numbers[i]);
-            if(hash.containsKey(diff)){
-                int toReturn[] = {hash.get(diff), i};
-                return toReturn;
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int[] result = new int[2];
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for (int i =0; i < nums.length; i++) {
+            if (map.containsKey(target - nums[i])) {
+            result[1] = i;
+            result[0] = map.get(target - nums[i]);
+            return result;
             }
-
-            hash.put(numbers[i], i);
-
+            map.put(nums[i], i);
         }
-        
-        return null;
-        
+        return result;
     }
 }
