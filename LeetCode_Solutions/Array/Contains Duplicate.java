@@ -20,13 +20,13 @@ class Solution {
     
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        HashSet<Integer> numbers = new HashSet<>();
-        
-        for (int i=0; i<nums.length; i++)
-        {
-            if (numbers.contains(nums[i]))
+        HashSet<Integer> set = new HashSet<Integer>();
+        for(int i: nums) {
+            if(set.contains (i)) {
                 return true;
-            numbers.add(nums[i]);
+            } else {
+                set.add(i);
+            }
         }
         return false;
     }
