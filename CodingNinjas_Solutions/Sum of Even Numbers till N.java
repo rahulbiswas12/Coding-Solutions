@@ -13,7 +13,21 @@ public class Solution {
 		System.out.println(sum);
 	}
 }
+______________________________________________________________
 
+public class Solution {
+	public static long evenSumTillN(int n) {
+		long sum = 0;
+		int i = 2;
+		while (i <= n) {
+			sum += i;
+			i += 2;
+		}
+		return sum;
+	}
+}
+
+--------------------------------------------------------------
 /*
 Input Format :
 Integer N
