@@ -1,7 +1,6 @@
 import java.io.*;
 import java.util.*;
 
-
 public class Example {
 public static void main (String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -20,9 +19,7 @@ public static void main (String[] args) {
                 if (arr[i] + arr[j] == sum)
                     count++;
         System.out.println("Count of pairs is " + count);
-
-
-}
+   }
 }
 
 /*
