@@ -22,6 +22,7 @@ class Solution {
     }
 }
 
+
 /*
 Take an array with n elements with possibly duplicate elements as the input. The task is to find the index of the first occurrences of the element x in the array and, if it is not present, return -1.
 Input Format:
